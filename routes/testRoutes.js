@@ -6,7 +6,7 @@ router.get("/me", (req, res) => {
   res.send("GET");
 });
 
-console.log("ERROR");
+// console.log("ERROR");
 
 router.post("/me", (req, res) => {
   console.log("POST");
