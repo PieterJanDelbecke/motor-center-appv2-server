@@ -12,3 +12,5 @@ router.post("/me", (req, res) => {
 });
 
 export default router;
+
+// TODO: work out issue with router
