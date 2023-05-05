@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 import testRouter from "./routes/testRoutes.js";
 
-const PORT = 4000;
+const PORT = 5000;
 
 app.use("/test", testRouter);
 
